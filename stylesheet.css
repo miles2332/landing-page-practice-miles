@@ -1,0 +1,306 @@
+/* .bai-jamjuree-regular {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bai-jamjuree-semibold {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+} */
+
+/* -Font sizes(px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
+
+/* --SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 400;
+  max-width: 144rem;
+  margin: 0 auto;
+  color: rgb(159, 171, 178);
+}
+
+/* background-image: linear-gradient(
+            rgb(34, 34, 34, 0.6),
+            rgb(34, 34, 34, 0.6)
+          ),
+          url(hero.jpg); */
+
+header {
+  /* height: 100vh; */
+  background-image: linear-gradient(
+      to top,
+      rgba(255, 255, 255),
+      rgba(255, 255, 255, 0.35)
+    ),
+    url(images/bg-header-desktop.png);
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 8rem;
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 14rem;
+}
+.logo {
+  margin-bottom: 4rem;
+  min-width: 15%;
+  height: auto;
+}
+
+.header-main-txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading-primary {
+  font-size: 4rem;
+  font-weight: 600;
+  color: rgb(76, 84, 93);
+  text-align: center;
+}
+
+header .heading-primary {
+  margin-bottom: 1.2rem;
+}
+
+.sub-text-primary {
+  font-size: 1.8rem;
+  line-height: 1.4;
+  text-align: center;
+  width: 90%;
+}
+
+header .sub-text-primary {
+  margin-bottom: 4rem;
+}
+
+.header-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.download-btn:link,
+.download-btn:visited {
+  text-decoration: none;
+  font-size: 1.4em;
+  font-weight: 600;
+  color: white;
+  background-color: hsl(171, 66%, 44%);
+  padding: 1.4rem 3.6rem;
+  border-radius: 30px;
+}
+.ios:link,
+.ios:visited {
+  box-shadow: 0px 10px 15px hsl(171, 66%, 44%, 0.3);
+}
+
+.mac:link,
+.mac:visited {
+  background-color: hsl(233, 100%, 69%);
+  box-shadow: 0px 10px 15px hsl(201, 11%, 66%, 0.3);
+}
+
+.ios:hover,
+.ios:active {
+  background-color: rgba(38, 186, 164, 0.85);
+  transition: 300ms;
+}
+
+.mac:hover,
+.mac:active {
+  background-color: rgba(97, 115, 255, 0.85);
+  transition: 300ms;
+}
+
+.how-works {
+  width: 45%;
+  margin-bottom: 6.4rem;
+}
+
+.heading-secondary {
+  font-size: 3rem;
+  font-weight: 600;
+  text-align: center;
+  color: rgb(76, 84, 93);
+  margin-bottom: 2rem;
+}
+
+.sub-text-secondary {
+  font-size: 1.6rem;
+  text-align: center;
+  line-height: 1.4;
+}
+
+header .sub-text-secondary {
+  width: 85%;
+}
+
+.functionality {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* gap: 5rem; */
+  margin-bottom: 12.8rem;
+}
+
+.mac-picture {
+  display: block;
+  max-width: 100%;
+  max-height: auto;
+  transform: translate(-35%);
+}
+
+.functions {
+  padding: 5rem 0rem 0 0;
+  width: 22%;
+  transform: translate(-50%);
+}
+
+.heading-tertiary {
+  font-size: 2rem;
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+}
+
+.sub-text-tertiary {
+  font-size: 1.4rem;
+}
+
+.functions .heading-tertiary {
+  margin-bottom: 1.6rem;
+}
+
+.functions .sub-text-tertiary {
+  line-height: 1.7;
+  margin-bottom: 4.8rem;
+}
+
+.accessibility {
+  margin-bottom: 6.4rem;
+  padding-top: 0;
+}
+.accessibility-text {
+  margin: 0 auto;
+  max-width: 90%;
+  margin-bottom: 4.4rem;
+}
+.devices-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.tools {
+  margin-bottom: 12.8rem;
+}
+.tools-text {
+  margin-bottom: 6.4rem;
+  padding-top: 0;
+}
+
+.tools-showcase {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 auto;
+  max-width: 70%;
+  text-align: center;
+  line-height: 2;
+}
+
+.tools-icons {
+  margin-bottom: 2rem;
+}
+.blacklist-logo {
+  margin-bottom: 1.2rem;
+}
+
+.tools-examples .heading-tertiary {
+  margin-bottom: 1.4rem;
+}
+
+.partners {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 9rem;
+  padding-left: 4rem;
+  margin-bottom: 12.8rem;
+}
+
+.availability {
+  padding-top: 0;
+  margin-bottom: 12.8rem;
+}
+.availability-text {
+  margin-bottom: 4rem;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 15fr 40fr 45fr;
+  align-items: center;
+  background-color: rgba(232, 236, 238, 0.3);
+  padding: 4rem 16rem;
+}
+
+.footer-logo {
+  max-width: 5rem;
+  height: auto;
+}
+.footer-links {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 1rem;
+  row-gap: 1rem;
+}
+
+.footer-text {
+  font-size: 1.4rem;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: hsl(210, 10%, 33%);
+}
+.footer-link:hover,
+.footer-link:active {
+  color: hsl(171, 66%, 44%);
+  transition: 300ms;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: end;
+  gap: 2.5rem;
+}
+
+.sm-logo:hover .sm-btn,
+.sm-logo:active .sm-btn {
+  fill: hsl(171, 66%, 44%);
+  transition: 300ms;
+}
