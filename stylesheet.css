@@ -27,7 +27,7 @@ html {
 body {
   font-family: "Bai Jamjuree", sans-serif;
   font-weight: 400;
-  max-width: 144rem;
+  /* max-width: 144rem; */
   margin: 0 auto;
   color: rgb(159, 171, 178);
 }
